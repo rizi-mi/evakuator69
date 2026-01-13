@@ -75,6 +75,20 @@
       max-width: 900px;
       margin: 0 auto;
     }
+
+    @media (max-width: 768px) {
+      .features {
+        grid-template-columns: 1fr;
+        max-width: 100%;
+      }
+      .card img {
+        max-width: 100%;
+        height: auto !important;
+      }
+      .card {
+        padding: 20px;
+      }
+    }
     .card {
       background: #ffffff;
       padding: 30px;
