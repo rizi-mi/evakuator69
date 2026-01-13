@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Эвакуатор69 — услуги эвакуатора</title>
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background: #f2f2f2;
+      color: #111;
+    }
+    header {
+      background: #1a1a1a;
+      padding: 15px 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-bottom: 2px solid #ffcc00;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 26px;
+      color: #ffcc00;
+    }
+    header a {
+      color: #fff;
+      text-decoration: none;
+      font-size: 20px;
+      font-weight: bold;
+    }
+    .hero {
+      padding: 60px 20px;
+      text-align: center;
+      background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('https://images.unsplash.com/photo-1601933470928-c94c7c1b6d6a');
+      background-size: cover;
+      background-position: center;
+    }
+    .hero h2 {
+      font-size: 38px;
+      margin-bottom: 15px;
+    }
+    .hero p {
+      font-size: 20px;
+      margin-bottom: 25px;
+    }
+    .btn {
+      display: inline-block;
+      background: #ffcc00;
+      color: #000;
+      padding: 15px 30px;
+      border-radius: 6px;
+      text-decoration: none;
+      font-size: 18px;
+      font-weight: bold;
+    }
+    .section {
+      padding: 40px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    .section h3 {
+      text-align: center;
+      font-size: 28px;
+      margin-bottom: 30px;
+      color: #ffcc00;
+    }
+    .features {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 30px;
+      justify-content: center;
+      max-width: 900px;
+      margin: 0 auto;
+    }
+    .card {
+      background: #ffffff;
+      padding: 30px;
+      border-radius: 16px;
+      text-align: center;
+      border: 1px solid #e0e0e0;
+      box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .card h4 {
+      margin-top: 15px;
+      min-height: 48px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+    }
+    .price-btn {
+      margin-top: auto;
+      display: inline-block;
+      background: #ffcc00;
+      color: #000;
+      padding: 10px 22px;
+      border-radius: 6px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .card img {
+      max-width: 300px;
+      width: 100%;
+      margin: 0 auto 20px;
+      display: block;
+    }
+    .advantages .card img {
+      max-width: 80px;
+      margin-bottom: 15px;
+    }
+    .card .price-btn {
+      margin-top: 15px;
+      display: inline-block;
+      background: #ffcc00;
+      color: #000;
+      padding: 10px 22px;
+      border-radius: 6px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .card h4 {
+      margin-bottom: 10px;
+      color: #ffcc00;
+    }
+    .prices {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+    .price-card {
+      background: #ffffff;
+      padding: 25px;
+      border-radius: 10px;
+      text-align: center;
+      border: 2px solid #ffcc00;
+    }
+    .price-card span {
+      display: block;
+      font-size: 32px;
+      font-weight: bold;
+      margin-top: 10px;
+      color: #ffcc00;
+    }
+    footer {
+      background: #000;
+      text-align: center;
+      padding: 20px;
+      font-size: 14px;
+      border-top: 2px solid #ffcc00;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Эвакуатор69</h1>
+  <a href="tel:89066536969">8 (906) 653-69-69</a>
+</header>
+
+<section class="hero">
+  <h2>Эвакуатор круглосуточно</h2>
+  <p>Быстрая подача • Аккуратная погрузка • Честные цены</p>
+  <a class="btn" href="tel:89066536969">Вызвать эвакуатор</a>
+</section>
+
+<section class="section advantages">
+  <h3>Наши преимущества</h3>
+  <div class="features">
+    <div class="card">
+      <img src="images/money.png" alt="Выгодные цены">
+      <h4>Выгодные цены</h4>
+      <p>Честная стоимость услуг эвакуатора. По городу и за городом — без переплат.</p>
+    </div>
+    <div class="card">
+      <img src="images/24.png" alt="Круглосуточная работа">
+      <h4>Круглосуточная работа</h4>
+      <p>Принимаем заказы 24 часа в сутки, 7 дней в неделю — всегда на связи.</p>
+    </div>
+  </div>
+  <div class="features" style="margin-top:30px; grid-template-columns:1fr; max-width:420px;">
+    <div class="card">
+      <img src="images/fast.png" alt="Оперативный выезд">
+      <h4>Оперативный выезд</h4>
+      <p>Быстро выезжаем на место. Минимальное время ожидания по городу.</p>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <h3>Какой транспорт эвакуируем</h3>
+  <div class="features">
+    <div class="card">
+      <img src="images/moto.png" alt="Эвакуация мотоциклов и квадроциклов" style="height:300px; object-fit:contain;">
+      <h4>Мотоциклы и квадроциклы</h4>
+      <a class="price-btn" href="#prices">Цена</a>
+    </div>
+    <div class="card">
+      <img src="images/sedan.png" alt="Эвакуация седанов и универсалов" style="height:300px; object-fit:contain;">
+      <h4>Седаны и универсалы</h4>
+      <a class="price-btn" href="#prices">Цена</a>
+    </div>
+    <div class="card">
+      <img src="images/jeep.png" alt="Эвакуация джипов и кроссоверов" style="height:300px; object-fit:contain;">
+      <h4>Джипы и кроссоверы</h4>
+      <a class="price-btn" href="#prices">Цена</a>
+    </div>
+    <div class="card">
+      <img src="images/lightT.png" alt="Эвакуация легкогрузового транспорта" style="height:300px; object-fit:contain;">
+      <h4>Легкогрузовой транспорт</h4>
+      <a class="price-btn" href="#prices">Цена</a>
+    </div>
+    <div class="card">
+      <img src="images/specialE.png" alt="Перевозка спецтехники" style="height:300px; object-fit:contain;">
+      <h4>Спецтехника</h4>
+      <a class="price-btn" href="#prices">Цена</a>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="prices">
+  <h3>Цены на услуги</h3>
+  <div class="prices">
+    <div class="price-card">
+      <h4>По городу</h4>
+      <span>2500 ₽</span>
+    </div>
+    <div class="price-card">
+      <h4>За городом</h4>
+      <span>60 ₽ / км</span>
+    </div>
+  </div>
+</section>
+
+<section class="section" style="text-align:center;">
+  <h3>Звоните прямо сейчас</h3>
+  <a class="btn" href="tel:89066536969">8 (906) 653-69-69</a>
+</section>
+
+<footer>
+  © 2026 Эвакуатор69
+</footer>
+
+</body>
+</html>
